@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:image(url(../imgs/index-background.jpg)) cover no-repeat;
+
+}
+
+h1{
+    width: 500px;
+    margin: auto;
+    padding:20px;
+    background-color: aqua;
+    text-align: center;
+    color:blue;
+}
+
+@media(max-width:789px) and (min-width:400px){
+    h1{
+        width: 80%;
+        font-size: 100px;
+        color:red;
+        background-color:blue;  
+
+    }
+}
