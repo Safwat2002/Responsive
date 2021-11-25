@@ -14,7 +14,7 @@ h1{
     color:blue;
 }
 
-@media(max-width:789px) and (min-width:400px){
+@media(max-width:1000x){
     h1{
         width: 80%;
         font-size: 100px;
